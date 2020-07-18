@@ -1,18 +1,21 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="styles.css">
     <title>"Dollar to cents" converter</title>
   </head>
   <body>
-    <div class="window">
-      <h1>Converter App</h1>
-      <p>Enter the number of dollars</p>
-      <input id="number" type="text" maxlength="8">
-      <button type="button" onclick="convert()" name="convert">Convert</button>
-    </div>
+    <main class="app">
+      <h1 class="app__header">Converter App</h1>
+      <p class="app__input-data">
+        <label class="app__input-label" for="app__input" class="app__description">
+          Enter the number of dollars
+        </label>
+        <input class="app__input" id="app__input" type="text" maxlength="8">
+      </p>
+      <button class="app__btn-convert" type="button" name="convert">Convert</button>
+    </main>
+    <script src="converter.js"></script>
   </body>
-  <script src="converter.js">
-  </script>
 </html>
