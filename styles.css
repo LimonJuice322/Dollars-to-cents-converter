@@ -1,6 +1,6 @@
 body {
   font-family: 'Arial Black', sans-serif;
-  background-color: #caf0f8;
+  background-color: #d6e2e9;
   margin: 1%;
 }
 
@@ -62,7 +62,7 @@ body {
 .app__btn-convert:focus {
   cursor: pointer;
   color: #ffffff;
-  background-color: #40E0D0;
+  background-color: #1a5b92;
   transition: 0.1s;
 }
 
