@@ -1,5 +1,7 @@
 body {
   font-family: 'Arial Black', sans-serif;
+  background-color: #d6e2e9;
+  margin: 1%;
 }
 
 .app {
@@ -11,12 +13,14 @@ body {
   text-align: center;
   padding: 0;
   margin: 0;
-  color: #87CEFA;
+  color: #001233;
+  font-family: 'Grandstander', cursive;
+  font-size: 400%;
 }
 
 .app__input-data {
   padding: 0;
-  margin: 0;
+  margin: 8%;
   padding-bottom: 10px;
 }
 
@@ -24,7 +28,7 @@ body {
   display: block;
   padding: 10px;
   text-align: center;
-  color: #87CEFA;
+  color: #001233;
 }
 
 .app__input {
@@ -32,14 +36,14 @@ body {
   width: 100%;
   display: block;
   font-size: 24px;
-  color: #87CEFA;
-  border: 2px solid #40E0D0;
+  color: #001233;
+  border: 2px solid #001233;
   border-radius: 5%;
 }
 
 .app__input:focus {
   outline: none;
-  border: 2px solid #87CEFA;
+  border: 2px solid  #001233;
 }
 
 .app__btn-convert {
@@ -48,16 +52,17 @@ body {
   width: 100%;
   padding-top: 15px;
   padding-bottom: 15px;
-  color: #40E0D0;
+  color: #03045e;
   background-color: #ffffff;
-  border: 2px solid #40E0D0;
+  border: 2px solid  #001233;
+  border-radius: 10%;
 }
 
 .app__btn-convert:hover,
 .app__btn-convert:focus {
   cursor: pointer;
   color: #ffffff;
-  background-color: #40E0D0;
+  background-color: #1a5b92;
   transition: 0.1s;
 }
 
@@ -66,7 +71,7 @@ body {
   margin-top: 10px;
   margin-bottom: 10px;
   padding: 15px;
-  background-color: #40E0D0;
+  background-color: #0466c8;
   color: #ffffff;
   text-align: center;
 }
@@ -75,14 +80,15 @@ body {
   width: 100%;
   color: #ffffff;
   border-collapse: collapse;
+  border: 2px solid  #0353a4;
 }
 
 .app-table__row:nth-child(odd) {
-  background-color: #87CEFA;
+  background-color: #0466c8;
 }
 
 .app-table__row:nth-child(even) {
-  background-color: #40E0D0;
+  background-color: #0353a4;
 }
 
 .app-table__cell {
@@ -90,8 +96,10 @@ body {
   padding-top: 15px;
   padding-bottom: 15px;
   width: 50%;
+  border: 2px solid  #001233;
 }
 
 .app-table__cell:nth-child(even) {
   border-left: 1px solid #D3D3D3;
+  border: 2px solid  #001233;
 }
